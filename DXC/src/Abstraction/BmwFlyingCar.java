@@ -13,5 +13,13 @@ public class BmwFlyingCar extends FlyingCar {
 	public void landCar() {
 		//TODO Auto-generated method stub
 	}
+	public static int add(int i, int j) {
+		// TODO Auto-generated method stub
+		return i+j;
+	}
+	public static boolean isEligibletoVote(int age) {
+		if(age > 17) {return true;}
+		return false;
+	}
 
 }
